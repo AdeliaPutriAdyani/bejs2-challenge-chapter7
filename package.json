@@ -1,0 +1,42 @@
+{
+  "name": "be-js-chapter7-challenge-example",
+  "version": "1.0.0",
+  "description": "challenge chapter 7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdeliaPutriAdyani/bejs2-challenge-chapter7.git"
+  },
+  "author": "Adelia Putri Adyani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdeliaPutriAdyani/bejs2-challenge-chapter7/issues"
+  },
+  "homepage": "https://github.com/AdeliaPutriAdyani/bejs2-challenge-chapter7#readme",
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "@sentry/node": "^7.80.1",
+    "@sentry/profiling-node": "^1.2.6",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.7",
+    "prisma": "^5.6.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
