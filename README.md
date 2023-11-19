@@ -21,4 +21,4 @@ Implementasi nodemailer untuk mereset password dan mengirim notifikasi di email 
 ![image](https://drive.google.com/file/d/1Thmvj4NwIaRR4s1PWomHCI5KkhL2bUGw/view?usp=drive_link)
 
 7. Halaman Error
-![image](https://drive.google.com/file/d/1RWcUPRdWceN3yN9nkTrV7_efrhSB-tQu/view?usp=drive_link)
+![image](https://drive.google.com/uc?id=1Suh_eUb5UrMyCbhyiXjuM2lJsLxBQf-z)
