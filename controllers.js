@@ -15,7 +15,7 @@ module.exports = {
             const existingUser = await users.findFirst({
                 where: {
                     email: req.body.email
-                }
+                },
             });
 
             if (existingUser) {
@@ -29,6 +29,11 @@ module.exports = {
                     email: req.body.email,
                     password: await utils.cryptPassword(req.body.password),
                 },
+            });
+
+            io.to(newUser.id).emit('registrationSuccess', {
+                message: 'Registration successful!',
+                user: newUser,
             });
 
             return res.render('reg-success', { user: newUser });

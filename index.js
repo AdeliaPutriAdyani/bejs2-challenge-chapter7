@@ -57,6 +57,10 @@ index.use((req, res, next) => {
   
   io.on('connection', (socket) => {
     console.log('Client connected:', socket.id);
+
+    socket.on('joinRoom', (userId) => {
+      socket.join(userId);
+    });
   });
 
 index.listen(PORT, () => console.log(`App is running at PORT ${PORT}`))
